@@ -1,5 +1,6 @@
 import _ from "lodash"
 import $ from "jquery"
+import {showModule as show} from "./foo.js"
 function component () {
   // var element = document.createElement('div');
   var element = $("<div></div>")
@@ -13,3 +14,5 @@ function component () {
 }
 
 document.body.appendChild(component());
+
+show();
