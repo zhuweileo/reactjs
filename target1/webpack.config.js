@@ -1,8 +1,11 @@
 var path = require("path");
 module.exports={
-	entry:"./app/index.js",
+	entry:{
+		"zip":"./app/index.js",
+		// "normal":"./app/index.js"
+	},
 	output:{
-		filename:"bundle.js",
+		filename:"[name].bundle.js",
 		path:path.resolve(__dirname,"dist")
 	}
 }
