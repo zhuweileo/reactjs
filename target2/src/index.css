@@ -1,0 +1,23 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height:100%;
+  color:white;
+}
+#root{
+display: flex;
+justify-content: center;
+align-items: center;
+background: lightblue;
+height: 100%;
+}
+#root>.wrapper{
+
+}
+#root>.wrapper>h1:nth-child(1){
+	text-align:center;
+}
+#root>.wrapper>h1:nth-child(2){
+	text-align:center;
+}
